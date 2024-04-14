@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+    text-decoration: none;
+}
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav {
+    width: 60%;
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    color: #fff;
+    font-size: 19px;
+    list-style: none;
+    cursor: pointer;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+li:hover {
+    color: #d21617;
+}
+#logo { 
+    width: 150px;
+    height: auto;
+}
+h1 {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    background: none;
+}
+#container {
+    width: 80%;
+    display: block;
+    padding: 10px;
+    margin: 15px auto;
+    
+}
+.cards-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    align-items: center;
+}
+.card {
+    width: 100%;
+    height: 600px;
+    border-radius: 5px;
+    transition: .8s;
+    background-size: cover;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.banner1 {
+    background-image: url(https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121730/batman-2022-tudo-o-que-precisa-saber-antes-de-ver-o-filme.jpg);
+
+}
+.banner2 {
+    background-image: url(https://br.web.img3.acsta.net/pictures/22/03/02/19/26/3666027.jpg);
+
+}
+.banner3 {
+    background-image: url(https://img.elo7.com.br/product/zoom/3FBBEDD/big-poster-filme-batman-2022-90x60-cm-lo006-poster.jpg);
+
+}
+.banner4 {
+    background-image: url(https://i.pinimg.com/originals/5c/2d/4a/5c2d4a824d07eabd17ec1ad147ca12ef.jpg);
+
+}
+.banner5 {
+    background-image: url(https://f.i.uol.com.br/fotografia/2022/03/03/1646335025622114315bf25_1646335025_3x2_md.jpg);
+    background-position: 40% 30%;
+}
+.banner6 {
+    background-image: url(https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121731/rev-1-TBM-11721r_High_Res_JPEG-970x550.jpeg);
+
+}
+.banner7 {
+    background-image: url(https://br.web.img3.acsta.net/newsv7/22/03/11/18/45/3015650.jpg);
+    background-position: 80% 30%;
+}
+.banner8 {
+    background-image: url(https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/07c53b1e-7aee-477d-8d45-c16c080faa75/new-featurette-for-the-batman-offers-additional-details-on-jeffrey-wrights-jim-gordon.jpg);
+}
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+span {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.footer-navigation {
+    display: none;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    .cards-content {
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin-left: 10px;
+    }
+}
+@media(max-width: 480px) {
+    .cards-content { 
+        width: 100%;
+        margin: 0;
+    }
+}

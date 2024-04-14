@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: black;
+    text-decoration: none;
+}
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav {
+    width: 60%;
+}
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-decoration: none;
+}
+li:hover {
+    color: #d21617;    
+}
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+#container {
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 95%;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding: 20px;
+}
+
+#comment-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.comment-box {
+    width: 90%;
+    height: 400px;
+    border: #000 solid;
+    border-radius: 25px;
+    background-color: rgb(207, 141, 141, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 200px;
+    border-radius: 25px;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+.comment-content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: none;
+    row-gap: 30px;
+    background: none;
+}
+
+
+.foto1 {
+    background-image: url(https://images.mubicdn.net/images/cast_member/24329/cache-2218-1602750818/image-w856.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.foto2 {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMTkxMzk4MjQ4MF5BMl5BanBnXkFtZTcwMzExODQxOA@@._V1_.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.foto3 {
+    background-image: url(https://m.media-amazon.com/images/M/MV5BMzczNzNiMDAtMmUzZS00MTkwLWIwOTYtNmYyNjg3MTVkNThhXkEyXkFqcGdeQXVyMjA4MjI5MTA@._V1_FMjpg_UX1000_.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.foto4 {
+    background-image: url(https://i.pinimg.com/originals/ca/7b/4d/ca7b4dc98619cfd031ff4f1b8920b4de.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.nome {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background: none;
+}
+
+.review {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    background: none;
+}
+
+.nota {
+    background: none;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+span {
+    color: #fff;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.footer-navigation {
+    display: none;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+    header {
+        width: 100%;
+    }
+    .footer-navigation {
+        display: block;
+    }
+
+    #container {
+        width: 90%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #comment-area {
+        width: 90%;
+    }
+
+    .comment-box {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: space-around;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .comment-content {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .name {
+        text-align: center;
+
+    }
+
+    .nota {
+        text-align: center;
+    }
+
+    .review {
+        text-align: justify;
+    }
+
+    .foto1 {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .foto2 {
+        background-size: 100%;
+        background-repeat: no-repeat;b
+    }
+    .foto3 {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    .foto4 {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+@media(max-width: 480px) {
+    .cards-content { 
+        width: 100%;
+        margin: 0;
+    }
+
+    #container {
+        margin: 5px auto;
+    }
+
+    .comment-box {
+        width: 90%;
+        height: 500px;
+    }
+
+    .box {
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        padding: 20px;
+}
