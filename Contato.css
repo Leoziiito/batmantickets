@@ -7,10 +7,10 @@
 }
 body {
     height: 100%;
-    background-image: url(https://cinemacao.com/wp-content/uploads/2022/03/batman-2-1130x590.jpg);
+    background-image: url('./imagens/backgroundcontatobat.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 30% 30%;
+    background-position: 10% 10%; 
 }
 header {
     height: 90px;
@@ -47,10 +47,10 @@ li:hover {
     width: 600px;
     height: 600px;
     padding: 50px;
-    background-color: rgba(207, 141, 141, 0.5);
+    background-color: rgba(121, 117, 117, 0.341);
     border-radius: 10px;
     margin: 100px auto;
-    border: solid;
+    border: 2px solid black;
     position: relative;
     
 }
@@ -101,6 +101,7 @@ textarea {
 footer {
     width: 100%;
     height: 150px;
+    padding-bottom: 30px;
     margin: 0px; 
     display: flex;
     flex-direction: column;
