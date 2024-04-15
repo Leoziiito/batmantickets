@@ -136,8 +136,8 @@ li:hover {
     transform: scale(1.1);
 }
 footer {
-    height: 300px;
-    margin-top: 50px;
+    height: 150px;
+    margin: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,4 +201,7 @@ span {
     .cards-content {
         grid-template-columns: 1fr;
     }
+}
+#container {
+    width: 50px;
 }
